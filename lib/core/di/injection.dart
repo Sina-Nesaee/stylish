@@ -1,11 +1,15 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
+import 'package:stylish/core/di/Login_injection.dart';
+import 'package:stylish/core/di/Register_injection.dart';
 import 'package:stylish/core/di/cart_injection.dart';
 import 'package:stylish/core/di/categories_injection.dart';
 import 'package:stylish/core/di/checkout_injection.dart';
 import 'package:stylish/core/di/home_injection.dart';
+import 'package:stylish/core/di/logout_injection.dart';
 import 'package:stylish/core/di/order_injection.dart';
 import 'package:stylish/core/di/product_injection.dart';
+import 'package:stylish/core/di/resetPassword_injection.dart';
 import 'package:stylish/core/di/search_injection.dart';
 
 final getIt = GetIt.instance;
@@ -18,4 +22,8 @@ void setupDependencies() {
  registerCartDependency();
  registerCheckoutDependency();
  registerOrderDependency();
+ registerLoginDependency();
+ registerRegisterDependency();
+ registerLogoutDependency();
+ registerResetPasswordDependency();
 }

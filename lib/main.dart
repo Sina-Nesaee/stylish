@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:stylish/core/di/injection.dart';
+import 'package:stylish/feathers/auth/presentation/screen/Login_Screen.dart';
+import 'package:stylish/feathers/auth/presentation/screen/Register_Screen.dart';
 import 'package:stylish/feathers/home/presentaition/screen/home_page.dart';
 import 'package:stylish/feathers/search/presentation/widget/search_widget.dart';
 import 'package:stylish/feathers/home/presentaition/widget/trendingProducts_section_widget.dart';
@@ -55,7 +57,7 @@ class MyApp extends StatelessWidget {
         )
        
       ),
-      home: const HomePageProvider(),
+      home: const LoginScreenProvider(),
     );
   }
 }

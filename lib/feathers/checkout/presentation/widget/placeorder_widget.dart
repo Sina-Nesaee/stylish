@@ -11,9 +11,18 @@ class PlaceorderWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocBuilder(
       builder: (BuildContext context, state) {
-        if(state is PlaceOrderError){}
-        },
-      
+        final isLoading = state is PlaceOrderLoading;
+        return ElevatedButton(
+          onPressed: isLoading
+              ? null
+              : () {
+                  context.read<CheckoutBloc>().add(ValidationCheckoutEvent());
+                },
+          child: isLoading
+              ? Center(child: CircularProgressIndicator())
+              : Text('place order'),
+        );
+      },
     );
   }
 }
