@@ -1,4 +1,4 @@
-import 'package:stylish/feathers/checkout/domain/Entity/checkout_Entity.dart';
+import 'package:stylish/feathers/checkout/domain/entities/checkout_entity.dart';
 
 class ValidationCheckoutUsecase {
   String? call(CheckoutEntity checkout){

@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:stylish/feathers/product/domain/entities/product.dart';
+import 'package:stylish/feathers/product/domain/entities/product_entity.dart';
 
 @immutable
 sealed class ProductDiscoveryState {

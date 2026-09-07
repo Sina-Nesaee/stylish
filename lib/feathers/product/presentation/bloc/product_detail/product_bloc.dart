@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:stylish/feathers/product/domain/entities/product.dart';
-import 'package:stylish/feathers/product/domain/usecase/get_Product_By_Id.dart';
+import 'package:stylish/feathers/product/domain/entities/product_entity.dart';
+import 'package:stylish/feathers/product/domain/useCases/get_product_by_id_usecase.dart';
 
 part 'product_event.dart';
 part 'product_state.dart';

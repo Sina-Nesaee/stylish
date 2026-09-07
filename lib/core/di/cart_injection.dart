@@ -1,15 +1,15 @@
 import 'package:stylish/core/di/injection.dart';
-import 'package:stylish/feathers/cart/data/datasource/cart_local_data_source.dart';
-import 'package:stylish/feathers/cart/data/datasource/cart_local_data_source_Impl.dart';
-import 'package:stylish/feathers/cart/data/repositories/cart_Item_repository_Impl.dart';
-import 'package:stylish/feathers/cart/domain/repository/cartItem_Repository.dart';
-import 'package:stylish/feathers/cart/domain/usecase/Add_To_cart.dart';
-import 'package:stylish/feathers/cart/domain/usecase/Decrease_Quantity.dart';
-import 'package:stylish/feathers/cart/domain/usecase/Get_Cart_Item.dart';
-import 'package:stylish/feathers/cart/domain/usecase/Increase_Quantity.dart';
-import 'package:stylish/feathers/cart/domain/usecase/Remove_From_Cart.dart';
-import 'package:stylish/feathers/cart/domain/usecase/calculate_cart_price_total.dart';
-import 'package:stylish/feathers/cart/domain/usecase/calculate_quantity_total.dart';
+import 'package:stylish/feathers/cart/data/datasources/cart_local_data_source.dart';
+import 'package:stylish/feathers/cart/data/datasources/cart_local_data_source_impl.dart';
+import 'package:stylish/feathers/cart/data/repositories/cart_item_repository_impl.dart';
+import 'package:stylish/feathers/cart/domain/repositories/cart_item_repository.dart';
+import 'package:stylish/feathers/cart/domain/usecases/add_to_cart.usecase.dart';
+import 'package:stylish/feathers/cart/domain/usecases/Decrease_Quantity_usecase.dart';
+import 'package:stylish/feathers/cart/domain/usecases/get_cart_item_usecase.dart';
+import 'package:stylish/feathers/cart/domain/usecases/increase_quantity_usecase.dart';
+import 'package:stylish/feathers/cart/domain/usecases/remove_from_cart_usecase.dart';
+import 'package:stylish/feathers/cart/domain/usecases/calculate_cart_price_total_usecase.dart';
+import 'package:stylish/feathers/cart/domain/usecases/calculate_quantity_total_usecase.dart';
 import 'package:stylish/feathers/cart/presentation/bloc/cart_item_bloc.dart';
 
 void registerCartDependency() {

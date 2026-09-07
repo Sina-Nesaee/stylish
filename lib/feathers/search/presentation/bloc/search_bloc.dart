@@ -1,8 +1,8 @@
 
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:stylish/feathers/product/domain/entities/product.dart';
-import 'package:stylish/feathers/search/domain/usecase/search_product.dart';
+import 'package:stylish/feathers/product/domain/entities/product_entity.dart';
+import 'package:stylish/feathers/search/domain/usecases/search_product_usecase.dart';
 
 part 'search_event.dart';
 part 'search_state.dart';

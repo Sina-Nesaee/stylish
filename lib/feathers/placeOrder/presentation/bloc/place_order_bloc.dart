@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:stylish/feathers/placeOrder/domain/Entity/order.dart';
-import 'package:stylish/feathers/placeOrder/domain/usecase/place_order_usecase.dart';
+import 'package:stylish/feathers/placeorder/domain/entities/order_entity.dart';
+import 'package:stylish/feathers/placeorder/domain/usecases/place_order_usecase.dart';
 
 part 'place_order_event.dart';
 part 'place_order_state.dart';

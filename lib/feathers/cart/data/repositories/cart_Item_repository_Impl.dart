@@ -1,7 +1,7 @@
 
-import 'package:stylish/feathers/cart/data/datasource/cart_local_data_source.dart';
-import 'package:stylish/feathers/cart/domain/Entity/cart_Item.dart';
-import 'package:stylish/feathers/cart/domain/repository/cartItem_Repository.dart';
+import 'package:stylish/feathers/cart/data/datasources/cart_local_data_source.dart';
+import 'package:stylish/feathers/cart/domain/entities/cart_item_entity.dart';
+import 'package:stylish/feathers/cart/domain/repositories/cart_item_repository.dart';
 
 class CartItemRepositoryImpl implements CartRepository {
   final CartLocalDataSource localDataSource;

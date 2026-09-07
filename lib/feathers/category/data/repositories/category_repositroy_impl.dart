@@ -1,6 +1,6 @@
-import 'package:stylish/feathers/category/data/datasource/category_remote_data_source.dart';
-import 'package:stylish/feathers/category/domain/entities/categories.dart';
-import 'package:stylish/feathers/category/domain/repositories/category_Repository.dart';
+import 'package:stylish/feathers/category/data/datasources/category_remote_data_source.dart';
+import 'package:stylish/feathers/category/domain/entities/categories_entity.dart';
+import 'package:stylish/feathers/category/domain/repositories/category_repository.dart';
 
 class CategoryRepositroyImpl implements CategoryRepository{
   final CategoryRemoteDataSource remoteDataSource;

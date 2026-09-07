@@ -1,15 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:stylish/core/di/injection.dart';
-import 'package:stylish/feathers/auth/presentation/screen/Login_Screen.dart';
-import 'package:stylish/feathers/auth/presentation/screen/Register_Screen.dart';
-import 'package:stylish/feathers/home/presentaition/screen/home_page.dart';
-import 'package:stylish/feathers/search/presentation/widget/search_widget.dart';
-import 'package:stylish/feathers/home/presentaition/widget/trendingProducts_section_widget.dart';
-import 'package:stylish/feathers/product/data/dataSource/product_remote_data_source.dart';
-import 'package:stylish/feathers/product/presentation/screens/Detail_product.dart';
-import 'package:stylish/feathers/product/presentation/screens/Trending_Products.dart';
+import 'package:stylish/feathers/auth/presentation/screens/login_screen.dart';
 import 'package:stylish/gen/fonts.gen.dart';
-import 'package:stylish/feathers/splash/presentation/screens/splashScreen.dart';
+
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:stylish/feathers/category/domain/entities/categories.dart';
-import 'package:stylish/feathers/category/domain/usecase/getCategories.dart';
+import 'package:stylish/feathers/category/domain/entities/categories_entity.dart';
+import 'package:stylish/feathers/category/domain/usecases/get_categories_usecase.dart';
 
 part 'category_event.dart';
 part 'category_state.dart';

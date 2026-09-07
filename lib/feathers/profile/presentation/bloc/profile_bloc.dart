@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:stylish/feathers/profile/domain/enteties/profile.dart';
-import 'package:stylish/feathers/profile/domain/usecase/get_Profile_Usecase.dart';
-import 'package:stylish/feathers/profile/domain/usecase/update_Profile_Usecase.dart';
+import 'package:stylish/feathers/profile/domain/enteties/profile_entity.dart';
+import 'package:stylish/feathers/profile/domain/usecases/get_profile_usecase.dart';
+import 'package:stylish/feathers/profile/domain/usecases/update_profile_usecase.dart';
 
 part 'profile_event.dart';
 part 'profile_state.dart';

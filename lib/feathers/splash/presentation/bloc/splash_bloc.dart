@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:stylish/feathers/splash/data/repositories/splash_repository.dart';
+import 'package:stylish/feathers/splash/data/repositories/splash_repository_impl.dart';
 
 part 'splash_event.dart';
 part 'splash_state.dart';

@@ -1,10 +1,11 @@
 import 'package:stylish/core/di/injection.dart';
-import 'package:stylish/feathers/auth/data/dataSource/Register/Register_remote_data_source.dart';
-import 'package:stylish/feathers/auth/data/dataSource/Register/Register_remote_data_source_Impl.dart';
-import 'package:stylish/feathers/auth/data/repository/register_repository_Impl.dart';
-import 'package:stylish/feathers/auth/domain/repository/Register_repository.dart';
-import 'package:stylish/feathers/auth/domain/usecase/Register_Usecase.dart';
+import 'package:stylish/feathers/auth/data/datasources/register/register_remote_data_source.dart';
+import 'package:stylish/feathers/auth/data/repositories/register_repository_impl.dart';
+import 'package:stylish/feathers/auth/domain/repositories/register_repository.dart';
+import 'package:stylish/feathers/auth/domain/usecases/register_usecase.dart';
 import 'package:stylish/feathers/auth/presentation/bloc/register/register_bloc.dart';
+
+import '../../feathers/auth/data/datasources/register/register_remote_data_source_impl.dart';
 
 void registerRegisterDependency() {
   getIt.registerLazySingleton<RegisterRemoteDataSource>(

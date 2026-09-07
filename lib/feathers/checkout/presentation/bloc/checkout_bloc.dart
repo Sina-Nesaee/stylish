@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:stylish/feathers/checkout/domain/Entity/checkout_Entity.dart';
+import 'package:stylish/feathers/checkout/domain/entities/checkout_entity.dart';
 import 'package:stylish/feathers/checkout/domain/usecases/validation_checkout_usecase.dart';
 
 part 'checkout_event.dart';

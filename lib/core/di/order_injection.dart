@@ -1,12 +1,12 @@
 import 'package:dio/dio.dart';
 import 'package:stylish/core/di/injection.dart';
-import 'package:stylish/feathers/placeOrder/data/dataSource/remot_data_source.dart';
-import 'package:stylish/feathers/placeOrder/data/dataSource/remote_data_source_Impl.dart';
-import 'package:stylish/feathers/placeOrder/data/repository/order_repository_Impl.dart';
-import 'package:stylish/feathers/placeOrder/domain/repository/order_repository.dart';
-import 'package:stylish/feathers/placeOrder/domain/usecase/creat_order_usecase.dart';
-import 'package:stylish/feathers/placeOrder/domain/usecase/place_order_usecase.dart';
-import 'package:stylish/feathers/placeOrder/presentation/bloc/place_order_bloc.dart';
+import 'package:stylish/feathers/placeorder/data/datasources/remot_data_source.dart';
+import 'package:stylish/feathers/placeorder/data/datasources/remote_data_source_impl.dart';
+import 'package:stylish/feathers/placeorder/data/repositories/order_repository_impl.dart';
+import 'package:stylish/feathers/placeorder/domain/repositories/order_repository.dart';
+import 'package:stylish/feathers/placeorder/domain/usecases/creat_order_usecase.dart';
+import 'package:stylish/feathers/placeorder/domain/usecases/place_order_usecase.dart';
+import 'package:stylish/feathers/placeorder/presentation/bloc/place_order_bloc.dart';
 
 void registerOrderDependency() {
   getIt.registerLazySingleton<OrderRemotDataSource>(

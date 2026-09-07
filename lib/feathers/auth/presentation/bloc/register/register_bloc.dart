@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:stylish/feathers/auth/domain/Entity/Register_entity.dart';
-import 'package:stylish/feathers/auth/domain/usecase/Register_Usecase.dart';
+import 'package:stylish/feathers/auth/domain/entities/register_entity.dart';
+import 'package:stylish/feathers/auth/domain/usecases/register_usecase.dart';
 
 part 'register_event.dart';
 part 'register_state.dart';

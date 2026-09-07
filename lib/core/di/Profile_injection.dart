@@ -1,10 +1,10 @@
 import 'package:stylish/core/di/injection.dart';
-import 'package:stylish/feathers/profile/data/dataSource/Profile_Remote_Data_Source.dart';
-import 'package:stylish/feathers/profile/data/dataSource/Profile_Remote_Data_Source_Impl.dart';
-import 'package:stylish/feathers/profile/data/repository/profile_Repository_Impl.dart';
-import 'package:stylish/feathers/profile/domain/repasitory/Profile_Repository.dart';
-import 'package:stylish/feathers/profile/domain/usecase/get_Profile_Usecase.dart';
-import 'package:stylish/feathers/profile/domain/usecase/update_Profile_Usecase.dart';
+import 'package:stylish/feathers/profile/data/datasources/profile_remote_data_source.dart';
+import 'package:stylish/feathers/profile/data/datasources/profile_remote_data_source_impl.dart';
+import 'package:stylish/feathers/profile/data/repositories/profile_repository_impl.dart';
+import 'package:stylish/feathers/profile/domain/repasitories/profile_repository.dart';
+import 'package:stylish/feathers/profile/domain/usecases/get_profile_usecase.dart';
+import 'package:stylish/feathers/profile/domain/usecases/update_profile_usecase.dart';
 import 'package:stylish/feathers/profile/presentation/bloc/profile_bloc.dart';
 
 void registerProfileDependency() {

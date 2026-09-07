@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:stylish/feathers/auth/domain/usecase/resetPassword_Usecase.dart';
+import 'package:stylish/feathers/auth/domain/usecases/resetPassword_usecase.dart';
 
 part 'reset_password_event.dart';
 part 'reset_password_state.dart';

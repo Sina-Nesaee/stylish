@@ -1,16 +1,15 @@
-import 'package:bloc/bloc.dart';
-import 'package:meta/meta.dart';
-import 'package:stylish/feathers/cart/domain/Entity/cart_Item.dart';
-import 'package:stylish/feathers/cart/domain/usecase/Add_To_cart.dart';
-import 'package:stylish/feathers/cart/domain/usecase/Decrease_Quantity.dart';
-import 'package:stylish/feathers/cart/domain/usecase/Get_Cart_Item.dart';
-import 'package:stylish/feathers/cart/domain/usecase/Increase_Quantity.dart';
-import 'package:stylish/feathers/cart/domain/usecase/Remove_From_Cart.dart';
-import 'package:stylish/feathers/cart/domain/usecase/calculate_cart_price_total.dart';
-import 'package:stylish/feathers/cart/domain/usecase/calculate_quantity_total.dart';
 
-part 'cart_item_event.dart';
-part 'cart_item_state.dart';
+
+import 'package:bloc/bloc.dart';
+import 'package:stylish/feathers/cart/domain/usecases/Decrease_Quantity_usecase.dart';
+import 'package:stylish/feathers/cart/domain/usecases/add_to_cart.usecase.dart';
+import 'package:stylish/feathers/cart/domain/usecases/calculate_cart_price_total_usecase.dart';
+import 'package:stylish/feathers/cart/domain/usecases/calculate_quantity_total_usecase.dart';
+import 'package:stylish/feathers/cart/domain/usecases/get_cart_item_usecase.dart';
+import 'package:stylish/feathers/cart/domain/usecases/increase_quantity_usecase.dart';
+import 'package:stylish/feathers/cart/domain/usecases/remove_from_cart_usecase.dart';
+import 'package:stylish/feathers/cart/presentation/bloc/cart_item_event.dart';
+import 'package:stylish/feathers/cart/presentation/bloc/cart_item_state.dart';
 
 class CartItemBloc extends Bloc<CartItemEvent, CartItemState> {
   final AddToCart addToCart;

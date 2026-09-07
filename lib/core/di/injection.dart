@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
-import 'package:stylish/core/di/Login_injection.dart';
-import 'package:stylish/core/di/Profile_injection.dart';
-import 'package:stylish/core/di/Register_injection.dart';
+import 'package:stylish/core/di/login_injection.dart';
+import 'package:stylish/core/di/profile_injection.dart';
+import 'package:stylish/core/di/register_injection.dart';
 import 'package:stylish/core/di/cart_injection.dart';
 import 'package:stylish/core/di/categories_injection.dart';
 import 'package:stylish/core/di/checkout_injection.dart';

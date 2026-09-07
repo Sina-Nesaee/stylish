@@ -1,4 +1,6 @@
-part of 'cart_item_bloc.dart';
+
+import 'package:meta/meta.dart';
+import 'package:stylish/feathers/cart/domain/entities/cart_item_entity.dart';
 
 @immutable
 sealed class CartItemEvent {}

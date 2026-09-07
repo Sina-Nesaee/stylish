@@ -1,10 +1,10 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:stylish/feathers/auth/domain/Entity/Login_entity.dart';
-import 'package:stylish/feathers/auth/domain/usecase/Login_Apple_Usecase.dart';
-import 'package:stylish/feathers/auth/domain/usecase/Login_Facebook_Usecase.dart';
-import 'package:stylish/feathers/auth/domain/usecase/Login_Google_Usecase.dart';
-import 'package:stylish/feathers/auth/domain/usecase/Login_Usecase.dart';
+import 'package:stylish/feathers/auth/domain/entities/login_entity.dart';
+import 'package:stylish/feathers/auth/domain/usecases/login_apple_usecase.dart';
+import 'package:stylish/feathers/auth/domain/usecases/login_facebook_usecase.dart';
+import 'package:stylish/feathers/auth/domain/usecases/login_google_usecase.dart';
+import 'package:stylish/feathers/auth/domain/usecases/login_usecase.dart';
 
 part 'login_event.dart';
 part 'login_state.dart';

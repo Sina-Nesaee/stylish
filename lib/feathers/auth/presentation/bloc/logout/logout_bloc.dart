@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:stylish/feathers/auth/domain/usecase/Logout_Usecase.dart';
+import 'package:stylish/feathers/auth/domain/usecases/logout_usecase.dart';
 
 part 'logout_event.dart';
 part 'logout_state.dart';

@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
-import 'package:stylish/feathers/product/domain/usecase/get_Product_Discount%20.dart';
-import 'package:stylish/feathers/product/domain/usecase/get_new_arrivals.dart';
-import 'package:stylish/feathers/product/domain/usecase/get_recommand_products.dart';
-import 'package:stylish/feathers/product/domain/usecase/get_trending_product.dart';
+import 'package:stylish/feathers/product/domain/useCases/get_product_discount_usecase%20.dart';
+import 'package:stylish/feathers/product/domain/useCases/get_new_arrivals_usecase.dart';
+import 'package:stylish/feathers/product/domain/useCases/get_recommand_products_usecase.dart';
+import 'package:stylish/feathers/product/domain/useCases/get_trending_product_usecase.dart';
 import 'package:stylish/feathers/product/presentation/bloc/product_discovery/product_discovery_event.dart';
 import 'package:stylish/feathers/product/presentation/bloc/product_discovery/product_discovery_state.dart';
 

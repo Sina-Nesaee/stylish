@@ -1,12 +1,14 @@
+
+
 import 'package:stylish/core/di/injection.dart';
-import 'package:stylish/feathers/auth/data/dataSource/Login/Login_remote_data_source.dart';
-import 'package:stylish/feathers/auth/data/dataSource/Login/Login_remote_data_source_Impl.dart';
-import 'package:stylish/feathers/auth/data/repository/Login_repository_Impl.dart';
-import 'package:stylish/feathers/auth/domain/repository/Login_repository.dart';
-import 'package:stylish/feathers/auth/domain/usecase/Login_Apple_Usecase.dart';
-import 'package:stylish/feathers/auth/domain/usecase/Login_Facebook_Usecase.dart';
-import 'package:stylish/feathers/auth/domain/usecase/Login_Google_Usecase.dart';
-import 'package:stylish/feathers/auth/domain/usecase/Login_Usecase.dart';
+import 'package:stylish/feathers/auth/data/datasources/login/login_remote_data_source.dart';
+import 'package:stylish/feathers/auth/data/datasources/login/login_remote_data_source_impl.dart';
+import 'package:stylish/feathers/auth/data/repositories/login_repository_impl.dart';
+import 'package:stylish/feathers/auth/domain/repositories/login_repository.dart';
+import 'package:stylish/feathers/auth/domain/usecases/login_apple_usecase.dart';
+import 'package:stylish/feathers/auth/domain/usecases/login_facebook_usecase.dart';
+import 'package:stylish/feathers/auth/domain/usecases/login_google_usecase.dart';
+import 'package:stylish/feathers/auth/domain/usecases/login_usecase.dart';
 import 'package:stylish/feathers/auth/presentation/bloc/login/login_bloc.dart';
 
 void registerLoginDependency() {
