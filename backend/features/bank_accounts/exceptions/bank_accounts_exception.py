@@ -1,0 +1,2 @@
+class BankAccountsNotFound(Exception):
+    pass

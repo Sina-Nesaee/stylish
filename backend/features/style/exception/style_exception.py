@@ -1,0 +1,2 @@
+class StyleNotFound(Exception):
+    pass

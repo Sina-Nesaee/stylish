@@ -1,0 +1,2 @@
+from .service_product_crud import decrease_product_stock
+from .service_product_crud import increase_product_stock
